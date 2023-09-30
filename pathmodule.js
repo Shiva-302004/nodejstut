@@ -1,0 +1,6 @@
+const path=require("path")
+console.log(path.dirname('C:\Users\HP\OneDrive\ Desktop\nodejs\ tutorial1\ nodejstut\pathmodule.js'))
+console.log(path.basename('C:\Users\HP\OneDrive\Desktop\nodejs\tutorial1\nodejstut\pathmodule.js'))
+console.log(path.extname('C:\Users\HP\OneDrive\Desktop\nodejs\tutorial1\nodejstut\pathmodule.js'))
+console.log(path.parse("C:\Users\HP\OneDrive\Desktop\nodejs\tutorial1\nodejstut\pathmodule.js"))
+console.log(path.toNamespacedPath("C:\Users\HP\OneDrive\Desktop\nodejs\tutorial1\nodejstut\pathmodule.js"))

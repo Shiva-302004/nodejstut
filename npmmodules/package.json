@@ -1,0 +1,29 @@
+{
+  "name": "npmmodules",
+  "version": "1.0.0",
+  "description": "node js tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shiva-302004/nodejstut.git"
+  },
+  "keywords": [
+    "i",
+    "am",
+    "learning",
+    "nodejs"
+  ],
+  "author": "shiva verma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shiva-302004/nodejstut/issues"
+  },
+  "homepage": "https://github.com/Shiva-302004/nodejstut#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "validator": "^13.9.0"
+  }
+}
