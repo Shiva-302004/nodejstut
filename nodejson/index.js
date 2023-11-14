@@ -13,7 +13,8 @@ const server=http.createServer((req,res)=>{
     const data=JSON.stringify(my_obj)
     // const shiva=my_obj.name
     const obj=JSON.parse(data)
-    res.end(data+ "\t \n"+obj)
+    res.end(data +obj)
+    // res.end(obj)
     
 })
 server.listen(3001,"127.0.0.1",()=>{
